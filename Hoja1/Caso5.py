@@ -3,16 +3,16 @@
 class Caso5:
 
     def __init__(self):
-        nom1 = ""
-        nom2 = ""
-        nom3 = ""
-        nom4 = ""
+        self.nom1 = ""
+        self.nom2 = ""
+        self.nom3 = ""
+        self.nom4 = ""
 
-        nota1 = 0.0
-        nota2 = 0.0
-        nota3 = 0.0
-        nota4 = 0.0
-        media = 0.0
+        self.nota1 = 0.0
+        self.nota2 = 0.0
+        self.nota3 = 0.0
+        self.nota4 = 0.0
+        self.media = 0.0
 
     def pedir_datos(self):
         self.nom1 = input("Introduce el nombre del alumno 1: ")
