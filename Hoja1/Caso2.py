@@ -1,15 +1,6 @@
 # crear un programa que pregunte al usuario su nombre y sus dos apellidos e imprimir por pantalla como se llama
 
 class Caso2:
-    
-    def main():
-        persona = Caso2()
-        persona.pedir_datos()
-        persona.mostrar_datos()
-
-    if __name__ == "__main__":
-        main()
-
     def __init__(self):
         self.nombre = ""
         self.ape1 = ""
@@ -25,3 +16,11 @@ class Caso2:
         print("Nombre:", self.nombre)
         print("Primer apellido:", self.ape1)
         print("segundo apellido:", self.ape2)
+
+def main():
+    persona = Caso2()
+    persona.pedir_datos()
+    persona.mostrar_datos()
+
+if __name__ == "__main__":
+    main()
